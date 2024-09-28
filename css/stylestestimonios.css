@@ -601,3 +601,76 @@ h2 {
 .barra-blanca {
     background-color: #fff;
 }
+.formcontact{
+    display: flex;
+    height: 832px;
+    background-color: #FFFFFF;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #000;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.form-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.form-section h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Poppins-Bold', sans-serif;
+    color: #000;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 15px;
+    color: #EAA109;
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 22.5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #EAA109;
+    transition: background-color 0.5s ease
+
+}
